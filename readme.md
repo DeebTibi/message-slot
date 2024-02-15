@@ -1,5 +1,5 @@
 ## Driver Utility:
-This is a hardwareless driver for the linux ecosystem compiled on the latest stable release of gcc-12.
+This is a hardwareless driver for the linux operating system compiled on the latest stable release of gcc-12.
 The hardware is a message slot service where each device created from the driver is a message slot.
 Each message slot contains multiple channels (p.o boxes) in which processes can write or read from them.
 The module is a character device driver.
