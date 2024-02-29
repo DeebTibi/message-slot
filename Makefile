@@ -4,7 +4,7 @@ KDIR := /lib/modules/$(shell uname -r)/build
 PWD := $(shell pwd)
 
 all: message_sender.o message_reader.o
-	$(MAKE) -C $(KDIR) M=$(PWD) CC=x86_64-linux-gnu-gcc-12 modules
+	$(MAKE) -C $(KDIR) M=$(PWD) modules
 
 message_sender.o:
 	gcc $(PWD)/message_sender.c -o message_sender

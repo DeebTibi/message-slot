@@ -11,7 +11,7 @@
 #define BUF_LEN 128
 #define NODE_NOT_FOUND -2
 #define NODE_DEL_SUCCESS 0
-#define MSG_SLOT_CHANNEL 420
+#define MSG_SLOT_CHANNEL _IOW(MAJOR_NUM, 0, unsigned int)
 
 MODULE_LICENSE("GPL");
 
